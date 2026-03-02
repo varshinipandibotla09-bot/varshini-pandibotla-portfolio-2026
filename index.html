@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varshini Pandibotla | Full Stack Developer</title>
+
+    <meta name="description" content="Varshini Pandibotla - Full Stack Developer Portfolio showcasing projects, skills, and internship experience.">
+    <meta name="keywords" content="Varshini Pandibotla, Full Stack Developer, Portfolio, Web Developer">
+    <meta name="author" content="Varshini Pandibotla">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>VP</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Hi, I'm Varshini Pandibotla</h1>
+    <h3>Aspiring Full Stack Developer</h3>
+    <p>I build responsive and user-focused web applications that solve real-world problems.</p>
+    <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate Full Stack Developer skilled in building scalable web applications.
+        Currently expanding my expertise through hands-on projects including CRM systems,
+        business websites, and productivity tools.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div>
+            <h4>Frontend</h4>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div>
+            <h4>Backend</h4>
+            <p>Python, Node.js (Learning)</p>
+        </div>
+        <div>
+            <h4>Tools</h4>
+            <p>Git, GitHub, VS Code</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Client Lead Management System (Mini CRM)</h3>
+        <p>A simple CRM system to manage client leads and track follow-ups efficiently.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Local Business Website & Love Pitch Project</h3>
+        <p>A responsive website built for showcasing business services with clean UI.</p>
+        <p><strong>Tech:</strong> HTML, CSS</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Expense Tracker</h3>
+        <p>A Python-based application to manage and track daily expenses.</p>
+        <p><strong>Tech:</strong> Python</p>
+    </div>
+
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <p>
+        Full Stack Web Development Intern – Future Interns (2026)
+        Working on real-world full-stack projects and professional portfolio development.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/varshinipandibotla09@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Varshini Pandibotla</p>
+    <p>
+        <a href="https://github.com/varshinipandibotla09-bot" target="_blank">GitHub</a> |
+        varshinipandibotla09@gmail.com
+    </p>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href"))
+            .scrollIntoView({ behavior: "smooth" });
+    });
+});
+</script>
+
+</body>
+</html>
