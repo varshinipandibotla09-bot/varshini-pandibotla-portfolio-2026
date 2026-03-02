@@ -3,7 +3,7 @@
 This is my professional Full Stack Developer portfolio built as part of the Full Stack Web Development Internship at Future Interns.
 
 ## 🚀 Live Website
-(Add your GitHub Pages link here after deployment)
+(https://varshinipandibotla09-bot.github.io/varshini-pandibotla-portfolio-2026/)
 
 ## 🎯 Objective
 Showcase my skills, projects, and internship experience in a professional way.
