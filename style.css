@@ -73,6 +73,7 @@ nav a:hover {
     padding: 10px 25px;
     border-radius: 25px;
     text-decoration: none;
+    margin: 5px;
     transition: 0.3s;
 }
 
@@ -160,23 +161,17 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
 footer a {
     color: #00adb5;
-    margin: 0 8px;
+    margin: 0 5px;
     text-decoration: none;
 }
 
 footer a.btn {
-    background: #00adb5;
-    color: white;
-    padding: 6px 15px;
+    padding: 5px 15px;
     border-radius: 20px;
     font-size: 14px;
-    transition: 0.3s;
-}
-
-footer a.btn:hover {
-    background: #019ca3;
 }
 
 footer i {
@@ -204,4 +199,3 @@ footer i:hover {
         align-items: center;
     }
 }
-
