@@ -59,10 +59,6 @@ Check out my live portfolio here:
 
 ---
 
-## 📂 Project Structure
-varshini-portfolio/ │ ├── index.html        # Main HTML page ├── style.css         # CSS styling ├── Resume.pdf        # Resume file └── assets/           # Images or other assets
----
-
 ## 📧 Contact Me
 
 - **Email:** varshinipandibotla09@gmail.com  
